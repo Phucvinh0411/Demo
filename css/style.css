@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.wrapper{
+    width: 900px;
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #F9F3E9;
+}
+nav{
+    /* border: 1px solid black; */
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 50px;
+}
+nav .inner-logo{
+    width: 20%;
+    text-align: center;
+}
+
+nav .inner-logo a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+nav .inner-menu{
+    width: 70%;
+    position: relative;
+}
+
+nav .inner-menu ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav .inner-menu ul li{
+    width: 15%;
+    text-align: center;
+}
+
+nav .inner-menu ul li:hover{
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+nav .inner-menu ul li:hover a{
+    color: blue;
+}
+nav .inner-menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    /* text-indent: 10px; */
+}
+
+
+nav .inner-soci{
+    width: 15%;
+}
+
+nav .inner-soci form{
+    display: inline-block;
+}
+nav .inner-soci form input{
+    width: 60px;
+}
+
+
+
+
+
+.content{
+    display: flex;
+    padding-top: 20px;
+}
+
+
+
+.content section{
+    width: 50%;
+    /* border: 1px solid black; */
+    border-top: none;
+    height: 500px;
+    position: relative;
+    padding-left: 20px;
+}
+.content section .product{
+    position: relative;
+}
+
+.content section .product img{
+    width: 100%;
+    height: auto;
+    padding: 50px 0px;
+}
+
+.content section .product .explore{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    line-height: 100px;
+    text-align: center;
+    position: absolute;
+    border-radius: 100%;
+    right: 0px;
+    bottom: 0px;
+    text-decoration: underline;
+}
+
+.content section .tiltel{
+    padding-left: 30px;
+    font-size: 65px;
+    font-weight: 500;
+}
+
+.content aside{
+    width: 50%;
+    /* border: 1px solid black; */
+    border-top: none;
+    border-left: none;
+    height: 500px;
+}
+
+.ima{
+    position: relative;
+    display: flex;
+
+}
+
+.ima img{
+    transition: transform 0.3s;
+}
+
+.ima img:hover{
+    transform: rotate(270deg);
+}
+
+.ima .none-dis{
+    display: none;
+}
+
+.play{
+    position: relative;
+    top: 200px;
+}
+
+.play i{
+    font-size: 40px;
+
+}
+
+.contact ul{
+    list-style-type: none;
+}
+
+footer{
+    /* border: 1px solid black; */
+    border-top: none;
+}
+
+
+.desc{
+    width: 60%;
+}
+.khoi{
+    display: inline-block;
+    width: 150px;
+    padding-left: 30px;
+}
+.khoi p{
+    font-size: 10px;
+}
